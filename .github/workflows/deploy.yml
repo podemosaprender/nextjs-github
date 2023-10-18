@@ -6,8 +6,9 @@ name: Deploy Next.js site to Pages
 
 on:
   # Runs on pushes targeting the default branch
+  # Edited by Stradex to make it work with maxi_ui branch.
   push:
-    branches: ["main"]
+    branches: ["maxi_ui"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
